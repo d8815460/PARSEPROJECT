@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp"
+    android:background="@android:color/white">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="New "
+        android:id="@+id/textView_cate"
+        android:background="@drawable/button_shape"
+        android:textStyle="bold|normal"
+        android:textSize="30dp"
+        android:layout_weight="3"
+        android:layout_marginLeft="2dp"
+        android:gravity="center_vertical|center_horizontal"
+         />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="New Text"
+        android:id="@+id/textView_title"
+        android:layout_weight="1"
+        android:textSize="12dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textStyle="bold|normal"
+        android:layout_marginLeft="5dp"
+        android:background="@android:color/white"
+         />
+</LinearLayout><!-- From: file:/C:/PARSEPROJECT/ParseStarterProject/src/main/res/layout/list_item_view.xml -->
